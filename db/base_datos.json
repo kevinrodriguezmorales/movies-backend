@@ -1,0 +1,48 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "peliculas_vistas": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Inception",
+      "genero": "Ciencia Ficcion",
+      "relaciones": [
+        {
+          "id": 2,
+          "tipo": "Mismo Director"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Interstellar",
+      "genero": "Ciencia Ficción",
+      "relaciones": [
+        {
+          "id": 1,
+          "tipo": "Mismo Director"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "La momia",
+      "genero": "Terror",
+      "relaciones": [
+        {
+          "id": 1,
+          "tipo": "Mismo Director"
+        }
+      ]
+    }
+  ]
+}
